@@ -62,7 +62,7 @@ const hottestDays = function (temperatures, threshhold) {
 const logHottestDays = function (temperatures, threshhold) {
 	temperatures = hottestDays(temperatures,threshhold);
 	temperatures = toCelsius(temperatures);
-	logger(temperatures);
+	logger(temperatures); // solved
 };
 
 // const logHottestDays = function (temperatures, threshhold) {
